@@ -1,0 +1,102 @@
+/* ============================================
+   ESTILOS GERAIS DA PÁGINA
+   ============================================ */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* ============================================
+   TÍTULO
+   ============================================ */
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ============================================
+   PARÁGRAFO
+   ============================================ */
+
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* ============================================
+   LINK
+   ============================================ */
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ============================================
+   IMAGEM
+   ============================================ */
+
+img {
+    display: block;
+    max-width: 200px;
+    margin: 15px 0;
+}
+
+/* ============================================
+   BOTÃO
+   ============================================ */
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* ============================================
+   FORMULÁRIO
+   ============================================ */
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #3498db;
+    outline: none;
+}
